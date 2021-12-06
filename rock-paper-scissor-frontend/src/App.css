@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background-image: url("https://res.cloudinary.com/dpvxflhvr/image/upload/v1638801691/van-journey-minimal-4k-oe-1336x768_sge8vo.jpg");
+  font-family: sans-serif;
+}
+
+.input-col {
+  margin-top: 10px;
+  text-indent: 5px;
+  width: 270px;
+  height: 40px;
+  box-shadow: 2px 2px grey;
+  border-radius: 5px;
+}
+
+.heading {
+  font-size: 50px;
+}
+
+.score {
+  height: 110px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.choice {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+}
+
+.computer-hand {
+  width: 250px;
+}
+
+.user-hand {
+  width: 250px;
+  transform: rotateY(180deg);
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: darkgrey; */
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* .result {
+  padding: 50px;
+} */
